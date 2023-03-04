@@ -1,10 +1,10 @@
-fn solve() -> Bool {
+fn solve() -> bool {
     true
 }
 
 #[cfg(test)]
 mod tests {
-    super::solve;
+    use super::*;
 
     #[test]
     fn solve() {
